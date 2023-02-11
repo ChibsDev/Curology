@@ -137,13 +137,13 @@ header {
   color: white;
 }
 
-.section-make {
+.section-article {
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
 }
 
-.make-container {
+.article-container {
   max-width: 64rem;
   margin: auto;
 }
@@ -172,7 +172,7 @@ header {
   vertical-align: middle;
 }
 
-.make-grid {
+.article-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -188,27 +188,27 @@ header {
   background: black;
 }
 
-.grid-chocolate {
+.grid-1 {
   background: url('images/prod4.jpg') center;
   background-size: cover
 }
-.grid-concrete {
+.grid-2 {
   background: url('images/prod8.jpg') center;
   background-size: cover
 }
-.grid-wax {
+.grid-3 {
   background: url('images/prod3.jpg') center;
   background-size: cover
 }
-.grid-plastic {
+.grid-4 {
   background: url('images/prod7.jpg') center;
   background-size: cover
 }
-.grid-jesmonite {
+.grid-5 {
   background: url('images/prod5.jpg') center;
   background-size: cover
 }
-.grid-soap {
+.grid-6 {
   background: url('images/prod6.jpg') center;
   background-size: cover
 }
@@ -224,12 +224,11 @@ header {
   color: white;
 }
 
-.section-how {
+.section-what {
   min-height: auto;
   padding: 2rem 0;
-/*   background: linear-gradient(24deg, #ffe082 0%, #ffe082 50%, white 50%, white 100%); */
 }
-.how-container {
+.what-container {
   width: 100%;
   margin: auto;
   text-align: center;
@@ -240,9 +239,7 @@ header {
   margin-top: 2rem;
 }
 
-/* .section-newsletter {
-  background: #ffe082;
-} */
+
 
 .newsletter-container {
   text-align: center;
@@ -253,6 +250,7 @@ header {
   max-width: 600px;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 3rem auto;
 }
@@ -265,19 +263,19 @@ header {
   border-radius: 50px;
   font-size: 1rem;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 
 .btn-submit {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: 0;
+    margin: 20px auto;
+    border: none;
+    background-color: #c1b6de;
+    color: white;
+    padding: 20px;
 }
 
 .footer {
   padding: 1rem;
-/*   background: #ffe082; */
   text-align: center;
   font-size: 0.9rem;
 }
@@ -285,12 +283,14 @@ header {
 .link {
   text-decoration: none;
   font-weight: 600;
-  color: #212121;
+  color: none;
   transition: color 0.3s ease;
+  border: none;
 }
 
 .link:hover {
-  color: #f50057;
+  color: #716594;
+  border: none;
 }
 
 
